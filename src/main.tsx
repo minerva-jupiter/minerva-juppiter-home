@@ -3,7 +3,9 @@ import { createRoot } from 'react-dom/client'
 import AppRoutes from './AppRoutes.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <AppRoutes />
-  </StrictMode>,
+  <div>
+    <StrictMode>
+      <AppRoutes />
+    </StrictMode>,
+  </div>
 );
