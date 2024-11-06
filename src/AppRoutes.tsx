@@ -4,14 +4,18 @@ import {
     Routes
   } from "react-router-dom";
   import Home from './Home';
+  import Navbars from "./Navbar";
   
   const AppRoutes = () => {
     return (
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' element={<Home />} />
-        </Routes>
-      </BrowserRouter>
+        <div style={{backgroundColor:"black"}}>
+            <BrowserRouter>
+                <Navbars/>
+                <Routes>
+                <Route path='/' element={<Home />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
     )
   }
   
