@@ -1,5 +1,4 @@
 {
-  "homepage": "https://minerva-jupiter.github.io/minerva-juppiter-home",
   "name": "minerva-juppiter-home",
   "private": true,
   "version": "0.0.0",
@@ -8,10 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start"
+    "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
