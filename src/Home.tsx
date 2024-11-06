@@ -6,8 +6,8 @@ const Home = () => {
     <Container data-bs-theme="dark">
         <br />
         <Container className="text-center">
-            <h1 style={{color:"white"}}>Minerva_Juppiter</h1>
-            <h4 style={{color:"white"}}>哲</h4>
+            <h1>Minerva_Juppiter</h1>
+            <h4>哲</h4>
         </Container>
         <br />
         <br />
