@@ -8,6 +8,8 @@ import {
 import Schedule from "./Schedule";
 import Works from "./Works";
 import Blog from "./Blog";
+import Footer from "./Footer";
+import "./style.css";
   
   const AppRoutes = () => {
     return (
@@ -19,6 +21,9 @@ import Blog from "./Blog";
             <Route path="/Works" element={<Works />} />
             <Route path="/Blog" element={<Blog />} />
             </Routes>
+            <footer>
+              <Footer />
+            </footer>
         </BrowserRouter>
     )
   };

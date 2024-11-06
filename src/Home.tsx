@@ -17,7 +17,7 @@ const Home = () => {
                 <h3 className="text-center">自己の紹介です</h3>
                 <h6 className="text-center">About me</h6>
             </Card.Title>
-            <Card.Body>
+            <Card.Body style={{lineHeight:3}}>
                 おはようございます、Minerva_Juppiterです。<br />
                 しがない侏儒の者です。<br />
                 このページは自己紹介がてら作ったものです。<br />
