@@ -6,6 +6,6 @@ createRoot(document.getElementById('root')!).render(
   <div>
     <StrictMode>
       <AppRoutes />
-    </StrictMode>,
+    </StrictMode>
   </div>
 );
