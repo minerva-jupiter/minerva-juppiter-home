@@ -5,13 +5,13 @@ const Home = () => {
   return (
     <Container data-bs-theme="dark">
         <br />
-        <Container className="text-center">
+        <Container className="text-center" style={{color:'white'}}>
             <h1>Minerva_Juppiter</h1>
             <h4>哲</h4>
         </Container>
         <br />
         <br />
-        <Card className='text-center'>
+        <Card className='text-center' data-bs-theme="dark">
             <br />
             <Card.Title>
                 <h3 className="text-center">自己の紹介です</h3>
