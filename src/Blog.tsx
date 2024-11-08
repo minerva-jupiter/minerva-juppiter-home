@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card, Container } from 'react-bootstrap';
-import UnderConstruction from './UnderConstruction';
 
 const Blog = () => {
     return(
