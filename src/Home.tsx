@@ -22,6 +22,7 @@ const Home = () => {
                 しがない侏儒の者です。<br />
                 このページは自己紹介がてら作ったものです。<br />
                 良ければ見ていってください。<br />
+                theme color = 0f0a05
             </Card.Body>
             <br />
         </Card>
