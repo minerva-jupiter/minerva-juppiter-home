@@ -3,7 +3,7 @@ import { Card, Container } from 'react-bootstrap';
 
 const Home = () => {
   return (
-    <Container data-bs-theme="dark">
+    <Container>
         <br />
         <Container className="text-center" style={{color:'white'}}>
             <h1>Minerva_Juppiter</h1>
@@ -11,7 +11,7 @@ const Home = () => {
         </Container>
         <br />
         <br />
-        <Card className='text-center' data-bs-theme="dark">
+        <Card className='text-center'>
             <br />
             <Card.Title>
                 <h3 className="text-center">自己の紹介です</h3>
@@ -22,6 +22,7 @@ const Home = () => {
                 しがない侏儒の者です。<br />
                 このページは自己紹介がてら作ったものです。<br />
                 良ければ見ていってください。<br />
+                theme color = 0f0a05
             </Card.Body>
             <br />
         </Card>
