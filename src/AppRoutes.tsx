@@ -9,6 +9,7 @@ import Schedule from "./Schedule";
 import Works from "./Works";
 import Blog from "./Blog";
 import Footer from "./Footer";
+import "./scss/custom.scss";
 import "./style.css";
   
   const AppRoutes = () => {

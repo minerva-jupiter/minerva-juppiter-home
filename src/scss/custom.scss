@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$enable-dark-mode: true;
+
+:root{
+    --bs-body-bg: #0f0a05;
+    --bs-tertiary-bg: #0f0a05;
+    --bs-secondary-bg: #0f0a05;
+}
+
+
+@include color-mode(dark) {
+  .element {
+    background-color: var(--bs-body-bg);
+    flood-color: var(--bs-body-bg);
+  }
+}
