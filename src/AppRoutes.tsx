@@ -3,8 +3,8 @@ import {
     Route,
     Routes
   } from "react-router-dom";
-  import Home from './Home';
-  import Navbars from "./Navbar";
+import Home from './Home';
+import Navbars from "./Navbar";
 import Schedule from "./Schedule";
 import Works from "./Works";
 import Blog from "./Blog";
