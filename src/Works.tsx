@@ -6,8 +6,9 @@ import LinkCard from './LinkCard';
 const Works = () => {
     return(
         <Container className='text-center'>
+            <br />
             <h1 style={{color:"white"}}>Works</h1>
-            <LinkCard/>
+            <br />
             <UnderConstruction></UnderConstruction>
         </Container>
     )

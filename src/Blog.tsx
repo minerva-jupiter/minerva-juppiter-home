@@ -21,7 +21,7 @@ const Blog = () => {
                     自分のウェブページを作ってみた
                 </Card.Title> 
                 <Card.Body>
-                    このページを作成したときのブログです。
+                    このページを作成したときのブログです。<br />
                     Vite + Typescript + react + react-bootstrapでWebページを作ってみました。
                 </Card.Body>
             </Card>
