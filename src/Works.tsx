@@ -9,6 +9,7 @@ const Works = () => {
             <br />
             <h1 style={{color:"white"}}>Works</h1>
             <br />
+            <LinkCard/>
             <UnderConstruction></UnderConstruction>
         </Container>
     )
