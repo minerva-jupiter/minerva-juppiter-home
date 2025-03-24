@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
 import works_json from './assets/works.json';
 import LinkCard from './LinkCard';
 
