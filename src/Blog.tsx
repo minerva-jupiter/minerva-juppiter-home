@@ -15,16 +15,6 @@ const Blog = () => {
                     島根大学ものづくり部が発行する、2024年度の部誌に「PCカバン設計のすゝめ」という記事を寄稿させていただきました。
                 </Card.Body>
             </Card>
-            <br />
-            <Card>
-                <Card.Title>
-                    自分のウェブページを作ってみた
-                </Card.Title> 
-                <Card.Body>
-                    このページを作成したときのブログです。<br />
-                    Vite + Typescript + react + react-bootstrapでWebページを作ってみました。
-                </Card.Body>
-            </Card>
         </Container>
     )
 };
