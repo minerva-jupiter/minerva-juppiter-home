@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import works_json from './assets/works.json';
 import LinkCard from './LinkCard';
+import { Container } from 'react-bootstrap';
 
 console.log(works_json);
 const Cards = () => {
