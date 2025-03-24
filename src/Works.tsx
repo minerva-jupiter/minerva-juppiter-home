@@ -1,7 +1,20 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
-import UnderConstruction from './UnderConstruction';
+import works_json from './assets/works.json';
 import LinkCard from './LinkCard';
+import { Container } from 'react-bootstrap';
+
+console.log(works_json);
+const Cards = () => {
+    return(
+        works_json.map(works => {
+        return(
+            <div>
+                <LinkCard title={works.title} img={works.img} url={works.url} description={works.body} />
+                <br />
+            </div>
+        )})
+    )
+}
 
 const Works = () => {
     return(
@@ -9,8 +22,7 @@ const Works = () => {
             <br />
             <h1 style={{color:"white"}}>Works</h1>
             <br />
-            <LinkCard/>
-            <UnderConstruction></UnderConstruction>
+            <Cards/>
         </Container>
     )
 };

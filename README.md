@@ -48,3 +48,5 @@ export default tseslint.config({
   },
 })
 ```
+各社、埋め込みにはそれなりに別のパスなりサブドメインなりが切ってあって、それ以外からは参照できないので、注意。
+https://zenn.dev/012/articles/537115a9d8020d79479e

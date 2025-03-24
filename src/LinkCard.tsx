@@ -1,19 +1,26 @@
-import { Card } from "react-bootstrap"
 
-const LinkCard = () => {
-    return(
-        <Card>
-            <Card.Title>
-                here will link card!
-            </Card.Title>
-            <Card.Img>
-                 
-            </Card.Img>
-            <Card.Body>
-                here will be description for url
-            </Card.Body>
-        </Card>
-    );
-} 
+import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-export default LinkCard;
+
+const LinkCard = (target: {title:string,url:string,description:string,img:string}) => {
+  return (
+    <Link to={target.url}>
+      <Card>
+          <Card.Img src={target.img}/>
+          <Card.Title>
+            <h2>
+              {target.title}
+            </h2>
+          </Card.Title>
+          <Card.Body>
+            <p>
+              {target.description}
+            </p>
+          </Card.Body>
+      </Card>
+    </Link>
+  )
+}
+
+export default LinkCard
