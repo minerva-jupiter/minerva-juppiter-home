@@ -9,8 +9,9 @@ import Schedule from "./Schedule";
 import Works from "./Works";
 import Blog from "./Blog";
 import Footer from "./Footer";
-import "./style.css";
-  
+import './assets/cumsom-bootstrap.scss';
+
+
   const AppRoutes = () => {
     return (
         <BrowserRouter>
