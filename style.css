@@ -1,0 +1,27 @@
+:root {
+    --pirimary-color: whitesmoke;
+}
+body {
+    font-family: Noto Sans JP;
+    color: var(--pirimary-color);
+    background-color: black;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+header a {
+    text-decoration: none;
+    color: var(--pirimary-color);
+}
+
+.header-left {
+    text-align: left;
+}
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-right a {
+    padding: 1rem;
+}
