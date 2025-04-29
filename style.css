@@ -9,6 +9,10 @@ body {
     padding-right: 4rem;
 }
 
+header {
+    margin-bottom: 5rem;
+    border-bottom: solid 1px #444;
+}
 
 header a {
     text-decoration: none;
@@ -24,4 +28,17 @@ header a {
 }
 .header-right a {
     padding: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+    color: var(--pirimary-color);
+}
+
+article {
+    border-bottom: solid 1px #222;
 }
