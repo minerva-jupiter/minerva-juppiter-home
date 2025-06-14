@@ -42,3 +42,9 @@ header a {
 article {
     border-bottom: solid 1px #222;
 }
+
+footer {
+	margin: 3rem;
+	text-align: center;
+	color: #858585;
+}
